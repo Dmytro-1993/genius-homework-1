@@ -116,6 +116,13 @@ ul {
   color: var(--color-primary-lightblue);
   text-transform: capitalize;
 }
+
+.Procedures-title {
+  background-color: var(--color-secondary-yeloy);
+  color: var(--color-primary-white);
+  font-size: 22px;
+  line-height: 1.18;
+}
 .capitalize-section {
   text-transform: capitalize;
   font-weight: 600;
@@ -152,7 +159,7 @@ ul {
   background-color: var(--color-primary-lightblue);
 }
 
-.footer-political .footer {
+.footer-political .footer-contacts {
   background-color: var(--color-primary-lightblue);
   color: var(--color-primary-white);
   text-decoration: none;
