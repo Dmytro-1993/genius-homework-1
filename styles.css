@@ -1,0 +1,165 @@
+/* play-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/play-v19-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* play-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/play-v19-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* roboto-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto-v30-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+:root {
+  --color-primary-white: #ffffff;
+  --color-primary-lightblue: #2b7fff;
+  --color-primary-blue: #011c44;
+  --color-secondary-lightgray: #747272;
+  --color-secondary-gray: #4a4a4a;
+  --color-secondary-blue: #011f4a;
+  --color-secondary-yeloy: #ffd02b;
+  --color-secondary-black: #000000;
+}
+
+body {
+  font-family: "roboto", sans-serif;
+  color: var(--color-primary-blue);
+  font-weight: 400;
+  font-size: 18px;
+}
+
+address {
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Header */
+.link {
+  color: var(--color-primary-lightblue);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+}
+
+.link:hover {
+  color: var(--color-primary-blue);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.17;
+}
+
+.hero-title {
+  font-family: "play", sans-serif;
+  color: var(--color-primary-lightblue);
+  font-weight: 700;
+  font-size: 140px;
+  line-height: 0.81;
+  text-transform: capitalize;
+}
+
+.button {
+  color: var(--color-primary-white);
+  font-weight: 600;
+  background-color: var(--color-primary-lightblue);
+  border: 2px solid var(--color-primary-lightblue);
+  border-radius: 32px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: var(--color-primary-blue);
+  background-color: transparent;
+}
+
+.title-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.section-title {
+  color: var(--color-primary-blue);
+  font-family: "play", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.157;
+}
+.section-title .accent {
+  color: var(--color-primary-lightblue);
+}
+.section-title .accent-text {
+  color: var(--color-primary-lightblue);
+  text-transform: capitalize;
+}
+.capitalize-section {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.7;
+}
+.section-text {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 1.7;
+}
+
+.section-black {
+  color: var(--color-secondary-black);
+}
+.section-registration {
+  background-color: var(--color-primary-blue);
+  color: var(--color-primary-white);
+}
+.section-registration .accent {
+  color: var(--color-primary-lightblue);
+}
+.political {
+  color: var(--color-secondary-lightgray);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.political .accent {
+  text-decoration: underline;
+}
+/* Footer */
+.footer-political {
+  background-color: var(--color-primary-lightblue);
+}
+
+.footer-political .footer {
+  background-color: var(--color-primary-lightblue);
+  color: var(--color-primary-white);
+  text-decoration: none;
+}
+
+.Data-is-protected {
+  color: var(--color-secondary-lightgray);
+  font-size: 13px;
+  line-height: 1.17;
+}
